@@ -1,0 +1,16 @@
+import math
+a=int(input("Enter the a value:"))
+b=int(input("Enter the b value:"))
+c=int(input("Enter the c value:"))
+x=(b*b)-(4*a*c)
+if x>0:
+   root1=(-b+math.sqrt(x))/(2*a)
+   root2=(-b-math.sqrt(x))/(2*a)
+   print("Roots are real and distinct:",root1,root2)
+elif x==0:
+   root=(-b)/(2*a)
+   print("Roots are real and equal:",root)
+else:
+   real=(-b)/(2*a)
+   imag=(math.sqrt(-x))/(2*a)
+   print("Roots are real and imaginary:",real,imag)
