@@ -1,0 +1,20 @@
+import math
+x=int(input("Enter the choice:"))
+if(x==2):
+    b=int(input("Enter the breadth:"))
+    h=int(input("Enter the height:"))
+    if(b<=0 or h<=0):
+      print("Negative values not allowed")
+    else:
+      area=(0.5*b*h)
+      print("Area of triangle is",area)
+elif(x>2):
+    a=int(input("Enter the value of side A:"))
+    b=int(input("Enter the value of side B:"))
+    c=int(input("Enter the value of side C:"))
+    if(a<=0 or b<=0 or c<=0):
+      print("Negative value not allowed")
+    else:
+      s=(a+b+c)/2
+      a=((s*(s-a)*(s-b)*(s-c))**0.5)
+      print("Area of sides of triangle is ",a)
