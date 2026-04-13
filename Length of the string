@@ -1,0 +1,3 @@
+x=raw_input("Enter the string:")
+print("Reversed string:",x[::-1])
+print("Length of the string:",len(x))
