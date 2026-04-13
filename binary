@@ -1,0 +1,9 @@
+x=raw_input("Enter numbers:")
+list=[]
+delim= ','
+p= x.split(delim)
+for i in p:
+    q=int(i,2)
+    if(q%5==0):
+        list.append(i)
+print (list)
