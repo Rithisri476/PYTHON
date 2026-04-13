@@ -1,0 +1,10 @@
+def fact(num):
+   if (num<0):
+      print("The given number is negative number")
+   elif (num==0):
+      return 1
+   else:
+      y=num*fact(num-1)
+      return y
+num=int(input("Enter the number:"))
+print("Factorial is ",fact(num))
