@@ -1,0 +1,7 @@
+sums=0
+square=0
+for num in range(1,6):
+   sums=sums+num
+   square=square+(num**2)
+print("Sum of 5 natural numbers:",sums)
+print("Square of 5 natural numbers:",square)
