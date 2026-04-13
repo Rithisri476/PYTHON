@@ -1,0 +1,11 @@
+def max(a,b,c):
+   if (a>b and a>c):
+      return a
+   elif (b>c):
+      return b
+   else:
+      return c
+a=int(input("Enter A value:"))
+b=int(input("Enter B value:"))
+c=int(input("Enter C value:"))
+print("Maximum value is ",max(a,b,c))
