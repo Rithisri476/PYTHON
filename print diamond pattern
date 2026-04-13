@@ -1,0 +1,9 @@
+n=int(input("Enter number of rows:"))
+for r in range(1,n+1):
+    gaps=n-r
+    stars=r
+    print (" " * gaps + "* " * stars)
+for r in range(n - 1, 0, -1):
+    gaps=n-r
+    stars=r
+    print(" " * gaps + "* " * stars)
