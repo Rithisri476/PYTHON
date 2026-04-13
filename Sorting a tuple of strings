@@ -1,0 +1,3 @@
+tup=("Red","Black","Green","Yellow")
+sort=tuple(sorted(tup))
+print("Sorting a tuple of strings:",sort)
