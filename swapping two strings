@@ -1,0 +1,10 @@
+x=raw_input("Enter the first input string:")
+y=raw_input("Enter the second input string:")
+s1=x[0:2]
+e1=x[2:]
+s2=y[0:2]
+e2=y[2:]
+new1=s2+e1
+new2=s1+e2
+result=new1+new2
+print(result)
