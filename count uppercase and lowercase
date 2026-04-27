@@ -1,0 +1,10 @@
+x=raw_input("Enter the string:")
+upper=0
+lower=0
+for char in x:
+   if char.isupper():
+      upper=upper+1
+   if char.islower():
+      lower=lower+1
+print("Uppercase letters are:",upper)
+print("Lowercase letters are:",lower)
