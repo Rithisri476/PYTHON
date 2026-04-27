@@ -1,0 +1,14 @@
+a=raw_input("Enter the string:")
+alphab=0
+digits=0
+spaces=0
+for char in a:
+   if char.isalpha():
+      alphab=alphab+1
+   elif char.isdigit():
+      digits=digits+1
+   elif char.isspace():
+      spaces=spaces+1
+print("Number of alphabets:",alphab)
+print("Number of digits:",digits)
+print("Number of spaces:",spaces)
