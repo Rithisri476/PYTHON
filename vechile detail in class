@@ -1,0 +1,17 @@
+class Vehicle:
+   def getval(self):
+      self.types=input("Type:")
+      self.name=input("Name:")
+      self.make=input("Model:")
+      self.year=int(input("Year of manufacturing:"))
+      self.colour=input("Colour:")
+      print ("Vehicle Object is created")
+   def printval(self):
+      print ("Type of vehicle is ",self.types)
+      print ("Name of vehicle is ",self.name)
+      print ("Model of vehicle is ",self.make)
+      print ("Year of manufacturing is ",self.year)
+      print ("Colour of vehicle is ",self.colour)
+obj1=Vehicle()
+obj1.getval()
+obj1.printval()
