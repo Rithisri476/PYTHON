@@ -1,0 +1,9 @@
+a=raw_input("Enter the string:")
+l=len(a)
+if l<3:
+   result=a
+elif a[-3:]=='ing':
+   result=a+'ly'
+else:
+   result=a+'ing'
+print("Output is:",result)
